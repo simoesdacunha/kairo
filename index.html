@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kairo — Treino e dieta</title>
+<meta name="description" content="Kairo é um app de treino e dieta: plano feito para o seu perfil, registro de séries e cargas, refeições e evolução.">
+<style>
+  :root { --page:#10151A; --surface:#1B222B; --divider:#3E4A5A;
+          --hi:#F1F4F6; --mid:#B3BEC6; --lo:#8B979F; --accent:#C7F542; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, 'Inter', 'Segoe UI', sans-serif; color: var(--mid);
+         background: var(--page); line-height: 1.7; padding: 64px 20px 80px; }
+  main { max-width: 640px; margin: 0 auto; }
+  .mark { width: 56px; height: 56px; margin-bottom: 22px; }
+  h1 { font-size: 2.4rem; line-height: 1.1; color: var(--hi); letter-spacing: -1px;
+       margin-bottom: 10px; }
+  .tag { color: var(--accent); font-size: .78rem; letter-spacing: 1.6px;
+         text-transform: uppercase; margin-bottom: 6px; }
+  .lead { font-size: 1.08rem; margin-bottom: 34px; }
+  h2 { font-size: 1.05rem; color: var(--hi); margin: 34px 0 12px; }
+  ul { list-style: none; }
+  li { margin-bottom: 12px; padding-left: 18px; position: relative; }
+  li::before { content: ''; position: absolute; left: 0; top: .62em; width: 6px;
+               height: 6px; border-radius: 50%; background: var(--accent); }
+  strong { color: var(--hi); font-weight: 600; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+  .links a { display: inline-block; background: var(--surface); border: 1px solid var(--divider);
+             border-radius: 11px; padding: 11px 16px; color: var(--hi);
+             text-decoration: none; font-size: .93rem; }
+  .links a:hover { border-color: var(--accent); }
+  footer { margin-top: 52px; padding-top: 18px; border-top: 1px solid var(--divider);
+           color: var(--lo); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <svg class="mark" viewBox="0 0 100 100" aria-label="Kairo">
+    <circle cx="50" cy="50" r="34" fill="none" stroke="#C7F542" stroke-width="9"/>
+    <circle cx="50" cy="16" r="9" fill="#C7F542"/>
+  </svg>
+
+  <p class="tag">Treino e dieta</p>
+  <h1>Kairo</h1>
+  <p class="lead">Um plano de treino feito para o seu perfil, o registro de cada série
+  e carga, suas refeições e a evolução do seu corpo — em um app só, sem cadastro e sem
+  anúncio.</p>
+
+  <h2>O que ele faz</h2>
+  <ul>
+    <li><strong>Monta seu treino</strong> a partir do seu objetivo, experiência e dias
+    disponíveis — e ajusta com você depois.</li>
+    <li><strong>Registra a série enquanto você treina</strong>: carga, repetições,
+    descanso cronometrado e o cálculo das anilhas da barra.</li>
+    <li><strong>Acompanha a dieta</strong> com metas de calorias e macros, registro de
+    refeições e de água.</li>
+    <li><strong>Mostra a evolução</strong>: cargas subindo, medidas, peso e o que o
+    Apple Saúde já sabe sobre seu sono e seus batimentos.</li>
+    <li><strong>Conversa</strong> — a IA explica um exercício, troca um que você não
+    pode fazer e estima o valor de uma refeição pela foto.</li>
+  </ul>
+
+  <h2>Suporte</h2>
+  <p>Precisa de ajuda, quer relatar um problema ou pedir algo sobre seus dados? Escreva
+  para o endereço de suporte informado na página do Kairo na App Store — respondemos em
+  até 15 dias, e normalmente bem antes disso.</p>
+  <p>Para exportar ou apagar tudo o que o app guarda, você não precisa falar com
+  ninguém: os dois botões estão em <strong>Ajustes → Privacidade e segurança</strong>,
+  dentro do app.</p>
+
+  <h2>Documentos</h2>
+  <div class="links">
+    <a href="privacy.html">Política de Privacidade</a>
+    <a href="terms.html">Termos de Uso</a>
+  </div>
+
+  <footer>Kairo — desenvolvido de forma independente no Brasil.</footer>
+</main>
+</body>
+</html>
